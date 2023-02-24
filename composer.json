@@ -14,7 +14,7 @@
     "require": {
         "php": ">=7.0.0",
         "laravel/framework": ">=5.0.0",
-        "maxfactor/support": "^2.0.0",
+        "maxfactor/support": "dev-master",
         "benjaminhirsch/nova-slug-field": "^1.0",
         "silvanite/nova-field-cloudinary": "^1.0",
         "dewsign/nova-repeater-blocks": "^1.0.4",
@@ -36,5 +36,11 @@
                 "Dewsign\\NovaSpaces\\Providers\\PackageServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:nickfairchild/dewsign-maxfactor-laravel-support.git"
+        }
+    ]
 }
