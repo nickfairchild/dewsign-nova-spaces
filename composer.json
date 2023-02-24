@@ -17,7 +17,7 @@
         "maxfactor/support": "dev-master",
         "benjaminhirsch/nova-slug-field": "^1.0",
         "silvanite/nova-field-cloudinary": "^1.0",
-        "dewsign/nova-repeater-blocks": "^1.0.4",
+        "dewsign/nova-repeater-blocks": "dev-master",
         "epartment/nova-dependency-container": "^1.1",
         "silvanite/brandenburg": "^1.0",
         "silvanite/nova-field-hidden": "^1.0"
@@ -41,6 +41,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/nickfairchild/dewsign-maxfactor-laravel-support.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nickfairchild/dewsign-nova-repeater-blocks.git"
         }
     ]
 }
